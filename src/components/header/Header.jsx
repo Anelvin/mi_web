@@ -58,7 +58,8 @@ function Header(){
                 </div>
                 <div>
                     <ul className={classes.containerItems}>
-                        <li className={classes.item}><Link className={classes.link}>Home</Link></li>
+                        <li className={classes.item}><Link className={classes.link} to='/mi_web'>Home</Link></li>
+                        <li className={classes.item}><Link className={classes.link} to='/mi_web/skill'>Habilidades</Link></li>
                         <li className={classes.item}><Link className={classes.link}>Proyectos</Link></li>
                         <li className={classes.item}><Link className={classes.link}>Sobre mi</Link></li>
                     </ul>
