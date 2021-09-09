@@ -4,13 +4,14 @@ import Header from '../../components/header/Header';
 import backgroundHome from '../../images/background-home.jpg';
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import CarouselWolly from '../../components/carousel-wolly/CarouselWolly';
-import react from '../../images/react.png';
+import php from '../../images/php.png';
+import laravel from '../../images/laravel.png';
+import mysql from '../../images/mysql.png';
+import vue from '../../images/vue.png';
 import html from '../../images/html.png';
 import css from '../../images/css.png';
 import javascript from '../../images/javascript.png';
-import nodejs from '../../images/nodejs.png';
-import expressjs from '../../images/expressjs.png';
-import mongo from '../../images/mongo.jpg';
+import CarouselInOut from '../../components/carousel-inout/CarouselInOut';
 
 const useStyle = makeStyles({
     container: {
@@ -46,7 +47,7 @@ const useStyle = makeStyles({
     }
 });
 
-function Wolly(){
+function InOut() {
 
     const classes = useStyle();
 
@@ -54,25 +55,25 @@ function Wolly(){
         <div className={classes.container}>
             <Header />
             <div className={classes.bodyContainer}>
-            <h1 className={classes.h1}>Wolly</h1>
-                <CarouselWolly />
+            <h1 className={classes.h1}>InOut</h1>
+                <CarouselInOut />
                 <h2>Tecnologías</h2>
                 <h3>Frontend</h3>
                 <div className={classes.tecnologies}>
                     <img className={classes.image} src={html} alt="" />
                     <img className={classes.image} src={css} alt="" />
                     <img className={classes.image} src={javascript} alt="" />
-                    <img className={classes.image} src={react} alt="" />
+                    <img className={classes.image} src={vue} alt="" />
                 </div>
                 <h3>Backend</h3>
                 <div className={classes.tecnologies}>
-                    <img className={classes.image} src={nodejs} alt="" />
-                    <img className={classes.image} src={expressjs} alt="" />
-                    <img className={classes.image} src={mongo} alt="" />
+                    <img className={classes.image} src={php} alt="" />
+                    <img className={classes.image} src={laravel} alt="" />
+                    <img className={classes.image} src={mysql} alt="" />
                 </div>
             </div>
         </div>
     );
 }
 
-export default Wolly;
+export default InOut;

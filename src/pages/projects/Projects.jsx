@@ -136,7 +136,7 @@ function Projects(){
                         <div className={classes.containerProject}>
                             <img className={classes.image} src={inout} alt="" />
                             <div>
-                                <Link className={classes.link} to='/mi_web/projects/inout'>InOut</Link>
+                                <Link className={classes.link} to='/mi_web/inout'>InOut</Link>
                                 <p>Sistema para el control de fichajes.</p>
                             </div>
                         </div>
@@ -147,7 +147,7 @@ function Projects(){
                     <div className={classes.containerProject}>
                         <img className={classes.image} src={wollyPro} alt="" />
                         <div>
-                            <Link className={classes.link} to='/mi_web/projects/wolly-pro'>Wolly Pro</Link>
+                            <Link className={classes.link} to='/mi_web/wolly-pro'>Wolly Pro</Link>
                             <p>Aplicación móvil para profesionales Wolly.</p>
                         </div>
                     </div>

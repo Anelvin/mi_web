@@ -4,13 +4,15 @@ import Header from '../../components/header/Header';
 import backgroundHome from '../../images/background-home.jpg';
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import CarouselWolly from '../../components/carousel-wolly/CarouselWolly';
+import ionic from '../../images/ionic.png';
 import react from '../../images/react.png';
-import html from '../../images/html.png';
 import css from '../../images/css.png';
 import javascript from '../../images/javascript.png';
 import nodejs from '../../images/nodejs.png';
+import html from '../../images/html.png';
 import expressjs from '../../images/expressjs.png';
 import mongo from '../../images/mongo.jpg';
+import CarouselWollyPro from '../../components/carousel-wolly-pro/CarouselWollyPro';
 
 const useStyle = makeStyles({
     container: {
@@ -46,7 +48,7 @@ const useStyle = makeStyles({
     }
 });
 
-function Wolly(){
+function WollyPro(){
 
     const classes = useStyle();
 
@@ -54,13 +56,14 @@ function Wolly(){
         <div className={classes.container}>
             <Header />
             <div className={classes.bodyContainer}>
-            <h1 className={classes.h1}>Wolly</h1>
-                <CarouselWolly />
+            <h1 className={classes.h1}>Wolly Pro Móvil</h1>
+                <CarouselWollyPro />
                 <h2>Tecnologías</h2>
                 <h3>Frontend</h3>
                 <div className={classes.tecnologies}>
                     <img className={classes.image} src={html} alt="" />
                     <img className={classes.image} src={css} alt="" />
+                    <img className={classes.image} src={ionic} alt="" />
                     <img className={classes.image} src={javascript} alt="" />
                     <img className={classes.image} src={react} alt="" />
                 </div>
@@ -75,4 +78,4 @@ function Wolly(){
     );
 }
 
-export default Wolly;
+export default WollyPro;

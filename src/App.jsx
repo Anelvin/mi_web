@@ -5,6 +5,8 @@ import About from './pages/about/About';
 import Skill from './pages/skill/Skill';
 import Projects from './pages/projects/Projects';
 import Wolly from './pages/wolly/Wolly';
+import InOut from './pages/inout/InOut';
+import WollyPro from './pages/wolly-pro/WollyPro';
 
 function App() {
   return (
@@ -15,6 +17,8 @@ function App() {
         <Route path='/mi_web/skill' component={Skill}/>
         <Route path='/mi_web/projects' component={Projects}/>
         <Route path='/mi_web/wolly' component={Wolly} />
+        <Route path='/mi_web/inout' component={InOut}/>
+        <Route path='/mi_web/wolly-pro' component={WollyPro} />
       </Switch>
     </Router>
   );
