@@ -7,6 +7,8 @@ import Projects from './pages/projects/Projects';
 import Wolly from './pages/wolly/Wolly';
 import InOut from './pages/inout/InOut';
 import WollyPro from './pages/wolly-pro/WollyPro';
+import InOutMobile from './pages/inout-mobile/InOutMobile';
+import WollyProWeb from './pages/wolly-pro-web/WollyProWeb';
 
 function App() {
   return (
@@ -19,6 +21,8 @@ function App() {
         <Route path='/mi_web/wolly' component={Wolly} />
         <Route path='/mi_web/inout' component={InOut}/>
         <Route path='/mi_web/wolly-pro' component={WollyPro} />
+        <Route path='/mi_web/inout-mobile' component={InOutMobile} />
+        <Route path='/mi_web/wolly-pro1' component={WollyProWeb} />
       </Switch>
     </Router>
   );

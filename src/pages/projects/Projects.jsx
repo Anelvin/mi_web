@@ -5,6 +5,7 @@ import backgroundHome from '../../images/background-home.jpg';
 import wollyHome from '../../images/wolly1.png';
 import inout from '../../images/inout.png';
 import wollyPro from '../../images/wollypro5.png';
+import wollyPro1 from '../../images/wollypro1.png';
 import inoutMobile from '../../images/inoutmobile1.png';
 
 import { PropTypes } from 'prop-types';
@@ -134,6 +135,13 @@ function Projects(){
                             </div>
                         </div>
                         <div className={classes.containerProject}>
+                            <img className={classes.image} src={wollyPro1} alt="" />
+                            <div>
+                                <Link className={classes.link} to='/mi_web/wolly-pro1'>Wolly Pro</Link>
+                                <p>Aplicación web para la gestión de los trabajos de los profesionales.</p>
+                            </div>
+                        </div>
+                        <div className={classes.containerProject}>
                             <img className={classes.image} src={inout} alt="" />
                             <div>
                                 <Link className={classes.link} to='/mi_web/inout'>InOut</Link>
@@ -154,7 +162,7 @@ function Projects(){
                     <div className={classes.containerProject}>
                         <img className={classes.image} src={inoutMobile} alt="" />
                         <div>
-                            <Link className={classes.link} to='/mi_web/projects/inout-mobile'>InOut Mobile</Link>
+                            <Link className={classes.link} to='/mi_web/inout-mobile'>InOut Mobile</Link>
                             <p>Aplicación móvil para el cnotrol del fichaje.</p>
                         </div>
                     </div>

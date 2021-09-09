@@ -122,7 +122,7 @@ function Skill(){
                             <h3>Typescript</h3>
                         </div>
                         <div>
-                            <LinearProgress variant="determinate" value={85} />
+                            <LinearProgress variant="determinate" value={80} />
                         </div>
                     </div>
                     <div className={classes.itemsSkill}>
@@ -131,7 +131,7 @@ function Skill(){
                             <h3>Angular 2+</h3>
                         </div>
                         <div>
-                            <LinearProgress variant="determinate" value={90} />
+                            <LinearProgress variant="determinate" value={85} />
                         </div>
                     </div>
                     <div className={classes.itemsSkill}>
@@ -149,7 +149,7 @@ function Skill(){
                             <h3>Vuejs</h3>
                         </div>
                         <div>
-                            <LinearProgress variant="determinate" value={90} />
+                            <LinearProgress variant="determinate" value={85} />
                         </div>
                     </div>
                 </div>
@@ -179,7 +179,7 @@ function Skill(){
                             <h3>Nestjs</h3>
                         </div>
                         <div>
-                            <LinearProgress variant="determinate" value={80} />
+                            <LinearProgress variant="determinate" value={70} />
                         </div>
                     </div>
                     <div className={classes.itemsSkill}>
@@ -188,7 +188,7 @@ function Skill(){
                             <h3>PHP</h3>
                         </div>
                         <div>
-                            <LinearProgress variant="determinate" value={80} />
+                            <LinearProgress variant="determinate" value={85} />
                         </div>
                     </div>
                     <div className={classes.itemsSkill}>
@@ -206,7 +206,7 @@ function Skill(){
                             <h3>Lumen</h3>
                         </div>
                         <div>
-                            <LinearProgress variant="determinate" value={80} />
+                            <LinearProgress variant="determinate" value={75} />
                         </div>
                     </div>
                     <div className={classes.itemsSkill}>
@@ -215,7 +215,7 @@ function Skill(){
                             <h3>Symfony</h3>
                         </div>
                         <div>
-                            <LinearProgress variant="determinate" value={80} />
+                            <LinearProgress variant="determinate" value={60} />
                         </div>
                     </div>
                 </div>
@@ -236,7 +236,7 @@ function Skill(){
                             <h3>Flutter</h3>
                         </div>
                         <div>
-                            <LinearProgress variant="determinate" value={80} />
+                            <LinearProgress variant="determinate" value={70} />
                         </div>
                     </div>
                 </div>
