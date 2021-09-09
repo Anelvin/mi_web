@@ -129,7 +129,7 @@ function Projects(){
                         <div className={classes.containerProject}>
                             <img className={classes.image} src={wollyHome} alt="" />
                             <div>
-                                <Link className={classes.link} to='/mi_web/projects/wolly'>Wolly Home</Link>
+                                <Link className={classes.link} to='/mi_web/wolly'>Wolly Home</Link>
                                 <p>Encuentra los mejores Profesionales para tu Hogar.</p>
                             </div>
                         </div>
@@ -147,14 +147,14 @@ function Projects(){
                     <div className={classes.containerProject}>
                         <img className={classes.image} src={wollyPro} alt="" />
                         <div>
-                            <Link className={classes.link} to='/mi_web/projects/inout'>Wolly Pro</Link>
+                            <Link className={classes.link} to='/mi_web/projects/wolly-pro'>Wolly Pro</Link>
                             <p>Aplicación móvil para profesionales Wolly.</p>
                         </div>
                     </div>
                     <div className={classes.containerProject}>
                         <img className={classes.image} src={inoutMobile} alt="" />
                         <div>
-                            <Link className={classes.link} to='/mi_web/projects/inout'>InOut Mobile</Link>
+                            <Link className={classes.link} to='/mi_web/projects/inout-mobile'>InOut Mobile</Link>
                             <p>Aplicación móvil para el cnotrol del fichaje.</p>
                         </div>
                     </div>
