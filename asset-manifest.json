@@ -1,19 +1,19 @@
 {
   "files": {
     "main.css": "/mi_web/static/css/main.a6e3a55e.chunk.css",
-    "main.js": "/mi_web/static/js/main.2a054ffe.chunk.js",
-    "main.js.map": "/mi_web/static/js/main.2a054ffe.chunk.js.map",
+    "main.js": "/mi_web/static/js/main.9f1e1360.chunk.js",
+    "main.js.map": "/mi_web/static/js/main.9f1e1360.chunk.js.map",
     "runtime-main.js": "/mi_web/static/js/runtime-main.15d74e2d.js",
     "runtime-main.js.map": "/mi_web/static/js/runtime-main.15d74e2d.js.map",
     "static/css/2.c14c2270.chunk.css": "/mi_web/static/css/2.c14c2270.chunk.css",
-    "static/js/2.9feb839f.chunk.js": "/mi_web/static/js/2.9feb839f.chunk.js",
-    "static/js/2.9feb839f.chunk.js.map": "/mi_web/static/js/2.9feb839f.chunk.js.map",
+    "static/js/2.77fcc9ec.chunk.js": "/mi_web/static/js/2.77fcc9ec.chunk.js",
+    "static/js/2.77fcc9ec.chunk.js.map": "/mi_web/static/js/2.77fcc9ec.chunk.js.map",
     "static/js/3.6bfca051.chunk.js": "/mi_web/static/js/3.6bfca051.chunk.js",
     "static/js/3.6bfca051.chunk.js.map": "/mi_web/static/js/3.6bfca051.chunk.js.map",
     "index.html": "/mi_web/index.html",
     "static/css/2.c14c2270.chunk.css.map": "/mi_web/static/css/2.c14c2270.chunk.css.map",
     "static/css/main.a6e3a55e.chunk.css.map": "/mi_web/static/css/main.a6e3a55e.chunk.css.map",
-    "static/js/2.9feb839f.chunk.js.LICENSE.txt": "/mi_web/static/js/2.9feb839f.chunk.js.LICENSE.txt",
+    "static/js/2.77fcc9ec.chunk.js.LICENSE.txt": "/mi_web/static/js/2.77fcc9ec.chunk.js.LICENSE.txt",
     "static/media/agile.26bbfb1a.jpg": "/mi_web/static/media/agile.26bbfb1a.jpg",
     "static/media/angular.8cbd3d8b.png": "/mi_web/static/media/angular.8cbd3d8b.png",
     "static/media/backend.7b5a4186.png": "/mi_web/static/media/backend.7b5a4186.png",
@@ -30,6 +30,8 @@
     "static/media/inout2.781f92a6.png": "/mi_web/static/media/inout2.781f92a6.png",
     "static/media/inout3.bfe596f2.png": "/mi_web/static/media/inout3.bfe596f2.png",
     "static/media/inoutmobile1.970f6662.png": "/mi_web/static/media/inoutmobile1.970f6662.png",
+    "static/media/inoutmobile2.eac8ea95.png": "/mi_web/static/media/inoutmobile2.eac8ea95.png",
+    "static/media/inoutmobile3.b5902632.png": "/mi_web/static/media/inoutmobile3.b5902632.png",
     "static/media/javascript.38323140.png": "/mi_web/static/media/javascript.38323140.png",
     "static/media/jira.fc367bdf.png": "/mi_web/static/media/jira.fc367bdf.png",
     "static/media/laravel.8b2939ca.png": "/mi_web/static/media/laravel.8b2939ca.png",
@@ -50,6 +52,10 @@
     "static/media/wolly5.fb51d33f.png": "/mi_web/static/media/wolly5.fb51d33f.png",
     "static/media/wolly6.7358a6eb.png": "/mi_web/static/media/wolly6.7358a6eb.png",
     "static/media/wolly7.f45bf393.png": "/mi_web/static/media/wolly7.f45bf393.png",
+    "static/media/wollypro1.3712b439.png": "/mi_web/static/media/wollypro1.3712b439.png",
+    "static/media/wollypro2.1ae8793e.png": "/mi_web/static/media/wollypro2.1ae8793e.png",
+    "static/media/wollypro3.ab9b76f4.png": "/mi_web/static/media/wollypro3.ab9b76f4.png",
+    "static/media/wollypro4.59e1ecf5.png": "/mi_web/static/media/wollypro4.59e1ecf5.png",
     "static/media/wollypro5.b80dcb75.png": "/mi_web/static/media/wollypro5.b80dcb75.png",
     "static/media/wollypro6.c4b7361f.png": "/mi_web/static/media/wollypro6.c4b7361f.png",
     "static/media/wollypro7.1941ca1d.png": "/mi_web/static/media/wollypro7.1941ca1d.png"
@@ -57,8 +63,8 @@
   "entrypoints": [
     "static/js/runtime-main.15d74e2d.js",
     "static/css/2.c14c2270.chunk.css",
-    "static/js/2.9feb839f.chunk.js",
+    "static/js/2.77fcc9ec.chunk.js",
     "static/css/main.a6e3a55e.chunk.css",
-    "static/js/main.2a054ffe.chunk.js"
+    "static/js/main.9f1e1360.chunk.js"
   ]
 }
